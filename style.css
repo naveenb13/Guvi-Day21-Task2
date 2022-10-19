@@ -1,0 +1,106 @@
+body {
+    width: 99%;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    font-family: cursive;
+}
+
+.nav1 {
+    text-align: center;
+}
+
+.icon1 {
+    color: aqua;
+}
+
+.icon2 {
+    color: orangered;
+}
+
+.heading1 {
+    text-decoration: none;
+    font-size: 70px;
+    animation: effect 3s linear infinite;
+}
+
+.search1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    text-align: center;
+    color: orangered;
+}
+
+.input1 {
+    border: 5px solid aqua;
+    padding: 6px;
+}
+
+.button1 {
+    color: orangered;
+    background-color: aqua;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid orangered;
+    font-weight: bold;
+}
+
+.button1:hover {
+    color: aqua;
+    background-color: orangered;
+    border: 5px solid aqua;
+}
+
+
+.card1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHeader {
+    background-color: orangered;
+}
+
+.cardBody {
+    background-color: aqua;
+}
+
+#cardShow0 {
+    display: none;
+}
+
+#cardShow1 {
+    display: none;
+}
+
+#cardShow2 {
+    display: none;
+}
+
+#cardShow3 {
+    display: none;
+}
+
+#cardShow4 {
+    display: none;
+}
+
+@keyframes effect {
+    0% {
+        color: orangered;
+    }
+
+    50% {
+        color: linear-gradient(orangered, aqua);
+    }
+
+    100% {
+        color: aqua;
+    }
+}
